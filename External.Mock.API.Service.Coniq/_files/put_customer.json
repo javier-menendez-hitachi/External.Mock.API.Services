@@ -1,0 +1,13 @@
+﻿{
+  "id": 45559170,
+  "first_name": "Joe",
+  "last_name": "Smith",
+  "email": "fl3@coniq.com",
+  "allow_email": true,
+  "allow_phone": true,
+  "allow_push_notification": false,
+  "allow_post": true,
+  "created_datetime_utc": "2018-06-18T11:24:12",
+  "modified_datetime_utc": "2018-06-25T11:36:22",
+  "preferred_location_group": {}
+}

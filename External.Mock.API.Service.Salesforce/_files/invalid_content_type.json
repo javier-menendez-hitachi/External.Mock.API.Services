@@ -1,0 +1,6 @@
+﻿[
+  {
+    "message": "Missing Content-Type HTTP header",
+    "errorCode": "INVALID_CONTENT_TYPE"
+  }
+]

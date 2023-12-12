@@ -1,0 +1,7996 @@
+﻿[
+  {
+    "name": "2017_Xmas_Card",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "2017_Xmas_Card_FINAL",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "2019-Christmas_Card-Deployment",
+    "folderName": "Christmas_Card",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "SIGNED",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "CONTACT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR4000"
+      }
+    ]
+  },
+  {
+    "name": "API_TEST_LIST",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TEST_INT",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "TEST_NUM",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "TEST_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TEST_FIELD",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "BV-HNW-Opt_In",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "BV-HNW-Opt_Out",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_DEV",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "VIEWED_TANDC_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "T_AND_C_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_CONSENT",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SPEND_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TOTAL_PROGRAM_POINTS",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_IMG",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_POC",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "PREVIOUS_ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "PREVIOUS_SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_PROD",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "VIEWED_TANDC_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "T_AND_C_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_CONSENT",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "JOURNEY_STATUS",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SPEND_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TOTAL_PROGRAM_POINTS",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "POINTS_TO_NEXT_TIER",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_SERVICE_DEV",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_SERVICE_PROD",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "VIEWED_TANDC_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "T_AND_C_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_CONSENT",
+        "fieldType": "INTEGER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_SERVICE_SIT",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_SERVICE_UAT",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_SIT",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "VIEWED_TANDC_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "T_AND_C_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_CONSENT",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "ENGAGEMENT_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SPEND_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TOTAL_PROGRAM_POINTS",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACT_LIST_UAT",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "ENGAGEMENT_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SPEND_SEGMENT",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "VIEWED_TANDC_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "GEO_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "T_AND_C_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_CONSENT",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "SPEND_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ENGAGEMENT_DATE_SET",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SMS_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "PHONE_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SMS_PERMISSION_STATUS",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "PHONE_PERMISSION_STATUS",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "TOTAL_PROGRAM_POINTS",
+        "fieldType": "NUMBER"
+      }
+    ]
+  },
+  {
+    "name": "CONTACTS_LIST",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "NATIONALITY",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_HASH",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "DOUBLE_OPT_IN",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIVACY_OPT_IN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "SEGMENT_GROUP",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "B2C_PASSWORD",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "DELETE_ME_v1",
+    "folderName": "z_eCRM_Support",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "EVENT_REGISTRATION_FORM",
+    "folderName": "z_Website_Events_Limited",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "VERIOSN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "LIMITATION",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "LIMITATION_VALUE",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "HEADER_LOGO",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "HEADER_LINK",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "TITLE_TEXT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "BODY_TEXT",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "CONFIRMAITON_TEXT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "CONFIRMAITON_ERROR",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "BUTTON_TEXT",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "TSANDCS_TEXT",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "BODY_TEXT_LINK",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "TANDC_LINK",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "PRIV_LINK",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "FIELD_1_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_2_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_3_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_4_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_5_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_6_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_7_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_8_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_9_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIELD_10_TYPE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "TY_HEADER_LOGO",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "TY_TITLE_TEXT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "TY_BODY_TEXT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "TY_BODY_TEXT_LINK",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "TY_BODY_TEXT_2",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "NOT_YV_COPY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "NOT_YV_URL",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "CLOSED_COPY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "NEW_MEMBER_COPY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "NEW_MEMBER_COPY_LINK",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "TY_PROMO_AREA",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "FV_BtoB",
+    "folderName": "FV_Filters",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "FV_Corporate_List",
+    "folderName": "FV_Data",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "Hands_Free_Data_TEST",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "REFERENCE_NUMBER",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "FULL_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ADDRESS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "METHOD_OF_TRANSPORT",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MKTG_PARTNERS_TICKBOX",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "HNW_from_SalesForce",
+    "folderName": "{Salesforce}",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALESFORCE_ID",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SF_CREATED_DATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "DATA_PERMISSION_STATUS",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_MARKETING_CONSENT",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "Invitation_List",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "iris_testlist",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "KV_Aerclub",
+    "folderName": "KV_Data",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "KV_GIFT_CARD_LIST",
+    "folderName": "KV_Data",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "LeadsAndContacts",
+    "folderName": "{Salesforce}",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MASTERRECORDID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "ACCOUNTID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LASTNAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRSTNAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "RECORDTYPEID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PHONE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FAX",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MOBILEPHONE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "TITLE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "DEPARTMENT",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LEADSOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "BIRTHDATE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "DESCRIPTION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OWNERID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "CREATEDDATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "LASTMODIFIEDDATE",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "LASTACTIVITYDATE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MICE_CONTACT",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIVACY_POLICY_CONFIRMED",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIMARY_CONTACT",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PREFERRED_LANGUAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "POSTCODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "CITY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "STREET",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "STATE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "COUNTRY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OTHER_VILLAGES_OF_INTEREST",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "JOB_ROLE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "ACCOUNT_INDUSTRY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "POSTCODE_REGION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "POST_OPT_OUT",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_OPT_OUT",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "REGION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SALESFORCE_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SYSTEMMODSTAMP",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "LASTMODIFIEDBYID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "STATUS",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "FULL_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LATEST_TRADE_EVENTS_ATTENDED",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_DATE_TIME",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "LV_TRAINING_LIST",
+    "folderName": "z_eCRM_Support",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "ORIGINAL_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPT_IN_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PROFILING_OPT_IN",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACTIVE_STATUS",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "YOUR_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LATEST_REG_SOURCE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SEGMENT_FLAG",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SEGMENT_NUMBER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "OVER18",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "RE_PERMISSION_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "URL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GUID",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MIDDLE_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "AGE",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "DATE_OF_BIRTH",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FOOTFALL123_MOTHER_CODE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PRIVILEGE_TIER",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "THIRDPARTYOPTIN",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "OLD_RIID",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "COUNTRY_IOS",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "LVV_SF_BLACKBOOK",
+    "folderName": "LVV_Data",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SPEND_IN_LAST_12M",
+        "fieldType": "NUMBER"
+      },
+      {
+        "fieldName": "VIP_FLAG",
+        "fieldType": "CHAR"
+      }
+    ]
+  },
+  {
+    "name": "Member-Get-Member-Referrals",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "REFFERER_CUSTOMER_ID",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "REFFERER_EMAIL_ADDRESS",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "REFFERER_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "REFFERER_LANG_LOCALE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "REFFERER_MESSAGE",
+        "fieldType": "STR4000"
+      },
+      {
+        "fieldName": "LEAD_SOURCE",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "MV_Charles_Kaisin",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "SalesForce_Accounts_List",
+    "folderName": "!MasterData",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "RESPONSIBLE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACCOUNT_OWNER",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "ACCOUNT_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PARTNER_CATEGORY",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PARTNER_SUB_CATEGORY",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PARTNER_DETAIL",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "REGION",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MARKET",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "RELEVANT_VILLAGES",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE_OF_INTEREST",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "SalesForce_Accounts_test_List",
+    "folderName": "CG_Test",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "Salesforce_Ukraine_market",
+    "folderName": "{Salesforce}",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "SF_Accounts_Test_List",
+    "folderName": "CG_Test",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "TITLE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "ACCOUNT_OWNER",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "ACCOUNT_NAME",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PARTNER_CATEGORY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PARTNER_SUB_CATEGORY",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "PARTNER_DETAIL",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "REGION",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MARKET",
+        "fieldType": "STR100"
+      }
+    ]
+  },
+  {
+    "name": "TEMP-KV-MONT_BLANC-BLACK_BOOK",
+    "folderName": "KV_Filters",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "Test Germany block list",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "TEST_LIST_PROD",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "Website_Events",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "FIRST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LAST_NAME",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LANG_LOCALE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "PRIMARY_VILLAGE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "LEAD_SOURCE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "NEW_MEMBER",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "DAY_OF_WEEK",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "TELEPHONE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BRAND_SHOPPED",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "HEAR_ABOUT_EVENT",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPEN_TEXT_FIELD_01",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "CONFIRMATION_PARTNER",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "TELEPHONE_NOT_REQUIRED",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "GENDER",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "VISIT_DATE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_OF_RESIDENCE",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "SELECT_1",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SELECT_2",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SELECT_3",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SELECT_4",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "SELECT_5",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BOOLEAN_1",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BOOLEAN_2",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BOOLEAN_3",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BOOLEAN_4",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "BOOLEAN_5",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "OPEN_TEXT_1",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OPEN_TEXT_2",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OPEN_TEXT_3",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OPEN_TEXT_4",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "OPEN_TEXT_5",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "CONFIRM_NON",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2018",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2020",
+    "folderName": "2020_Xmas_Card",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2020-Desi",
+    "folderName": "2020_Xmas_Card",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2020_CM",
+    "folderName": "2020_Xmas_Card",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2020_PCS",
+    "folderName": "2020_Xmas_Card",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "VILLAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LANGUAGE",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2020_Wave_2",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2021",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "LIST_NAME",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_2021_PCS",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "LIST_SELECT",
+        "fieldType": "STR25"
+      }
+    ]
+  },
+  {
+    "name": "Xmas_Card_Wave_3",
+    "folderName": "!MasterLists",
+    "fields": [
+      {
+        "fieldName": "RIID_",
+        "fieldType": "INTEGER"
+      },
+      {
+        "fieldName": "CREATED_SOURCE_IP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CUSTOMER_ID_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ADDRESS_",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "EMAIL_DOMAIN_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_ISP_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_FORMAT_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "EMAIL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "EMAIL_MD5_HASH_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "EMAIL_SHA256_HASH_",
+        "fieldType": "STR100"
+      },
+      {
+        "fieldName": "MOBILE_NUMBER_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "MOBILE_COUNTRY_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "MOBILE_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_1_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "POSTAL_STREET_2_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CITY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "STATE_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_CODE_",
+        "fieldType": "STR25"
+      },
+      {
+        "fieldName": "COUNTRY_",
+        "fieldType": "STR50"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_DELIVERABILITY_STATUS_",
+        "fieldType": "CHAR"
+      },
+      {
+        "fieldName": "POSTAL_PERMISSION_REASON_",
+        "fieldType": "STR255"
+      },
+      {
+        "fieldName": "CREATED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "MODIFIED_DATE_",
+        "fieldType": "TIMESTAMP"
+      },
+      {
+        "fieldName": "SALUTATION",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "MESSAGE",
+        "fieldType": "STR500"
+      },
+      {
+        "fieldName": "SIGNATURE",
+        "fieldType": "STR500"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+﻿{
+  "isSuccess": true,
+  "errorCode": "0",
+  "errorMessage": "",
+  "message": "Welcome to Salesforce API Mock",
+  "statusCode": 200,
+  "loggingCategory": "SalesforceMock",
+  "messages": []
+}

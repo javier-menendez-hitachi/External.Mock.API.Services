@@ -1,0 +1,211 @@
+﻿{
+  "campaigns": [
+    {
+      "id": 1000,
+      "name": "testcampaign-b11",
+      "folderName": "testfolder",
+      "type": "EMAIL",
+      "campaignStatus": "ACTIVE",
+      "description": "description",
+      "purpose": "PROMOTIONAL",
+      "marketingStrategy": "strategy",
+      "marketingProgram": "program",
+      "listName": "listname",
+      "filterPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "refiningDataSourcePath": "foldername/objectName1",
+      "proofListPath": "foldername/objectName1",
+      "seedListPath": "foldername/objectName1",
+      "segmentPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryCampaignDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryLookupDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryProofDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementarySeedDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "suppressionListPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "subject": "subject",
+      "fromName": "from name",
+      "fromEmail": "from email",
+      "replyToEmail": "reply to email",
+      "bccEmail": "bcc email",
+      "htmlMessagePath": "documentPath",
+      "textMessagePath": "documentPath",
+      "enableExternalTracking": true,
+      "externalTrackingParams": {
+        "name1": "value1",
+        "name2": "value2"
+      },
+      "enableLinkTracking": true,
+      "linkTablePath": "foldername/objectName1",
+      "attachmentPaths": [
+        "documentPath1",
+        "documentPath2"
+      ],
+      "campaignVariables": {
+        "name1": "value1",
+        "name2": "value2"
+      },
+      "useUTF8": true,
+      "locale": "value",
+      "trackHTMLOpens": true,
+      "trackConversions": true,
+      "sendTextIfHTMLUnknown": true,
+      "segmentTrackingColumnName": "name",
+      "unsubscribeOption": "OPTOUT_SINGLE_CLICK",
+      "unsubscribeFormName": "name",
+      "autoCloseOption": "NO_AUTO_CLOSE",
+      "autoCloseValue": "value",
+      "closedCampaignURL": "URL",
+      "externalCampaignCode": "code",
+      "salesForceCampaignId": "salesforce id",
+      "links": [
+        {
+          "rel": "self",
+          "href": "/rest/api/v1.3/campaigns/testcampaign-b11",
+          "method": "GET"
+        },
+        {
+          "rel": "create",
+          "href": "/rest/api/v1.3/campaigns",
+          "method": "POST"
+        },
+        {
+          "rel": "updateCampaign",
+          "href": "rest/api/v1.3/campaigns/testcampaign-b11",
+          "method": "PUT"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "name": "testcampaign-b12",
+      "folderName": "testfolder",
+      "type": "EMAIL",
+      "campaignStatus": "ACTIVE",
+      "description": "description",
+      "purpose": "PROMOTIONAL",
+      "marketingStrategy": "strategy",
+      "marketingProgram": "program",
+      "listName": "listname",
+      "filterPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "refiningDataSourcePath": "foldername/objectName1",
+      "proofListPath": "foldername/objectName1",
+      "seedListPath": "foldername/objectName1",
+      "segmentPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryCampaignDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryLookupDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementaryProofDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "supplementarySeedDataSourcePaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "suppressionListPaths": [
+        "foldername/objectName1",
+        "foldername/objectName2"
+      ],
+      "subject": "subject",
+      "fromName": "from name",
+      "fromEmail": "from email",
+      "replyToEmail": "reply to email",
+      "bccEmail": "bcc email",
+      "htmlMessagePath": "documentPath",
+      "textMessagePath": "documentPath",
+      "enableExternalTracking": true,
+      "externalTrackingParams": {
+        "name1": "value1",
+        "name2": "value2"
+      },
+      "enableLinkTracking": true,
+      "linkTablePath": "foldername/objectName1",
+      "attachmentPaths": [
+        "documentPath1",
+        "documentPath2"
+      ],
+      "campaignVariables": {
+        "name1": "value1",
+        "name2": "value2"
+      },
+      "useUTF8": true,
+      "locale": "value",
+      "trackHTMLOpens": true,
+      "trackConversions": true,
+      "sendTextIfHTMLUnknown": true,
+      "segmentTrackingColumnName": "name",
+      "unsubscribeOption": "OPTOUT_SINGLE_CLICK",
+      "unsubscribeFormName": "name",
+      "autoCloseOption": "NO_AUTO_CLOSE",
+      "autoCloseValue": "value",
+      "closedCampaignURL": "URL",
+      "externalCampaignCode": "code",
+      "salesForceCampaignId": "salesforce id",
+      "links": [
+        {
+          "rel": "self",
+          "href": "/rest/api/v1.3/campaigns/testcampaign-b12",
+          "method": "GET"
+        },
+        {
+          "rel": "create",
+          "href": "/rest/api/v1.3/campaigns",
+          "method": "POST"
+        },
+        {
+          "rel": "updateCampaign",
+          "href": "rest/api/v1.3/campaigns/testcampaign-b12",
+          "method": "PUT"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "/rest/api/v1.3/campaigns?type=email",
+      "method": "GET"
+    },
+    {
+      "rel": "prev",
+      "href": "/rest/api/v1.3/campaigns?limit=200&offset=0&type=email",
+      "method": "GET"
+    },
+    {
+      "rel": "next",
+      "href": "rest/api/v1.3/campaigns?limit=200&offset=200&type=email",
+      "method": "GET"
+    }
+  ]
+}

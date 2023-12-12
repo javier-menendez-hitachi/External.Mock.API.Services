@@ -1,0 +1,12 @@
+﻿[
+  {
+    "errorMessage": null,
+    "success": true,
+    "recipientId": 72067
+  },
+  {
+    "errorMessage": "RECIPIENT_STATUS_UNDELIVERABLE: Recipient deliverability status is undeliverable",
+    "success": false,
+    "recipientId": -1
+  }
+]

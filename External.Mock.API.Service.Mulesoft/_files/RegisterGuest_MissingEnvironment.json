@@ -1,0 +1,9 @@
+﻿{
+  "isSuccess": false,
+  "errorCode": "2",
+  "errorMessage": "Missing Environment header",
+  "message": "Missing Environment header",
+  "statusCode": 400,
+  "loggingCategory": "MulesoftApiMock",
+  "messages": []
+}

@@ -1,0 +1,12 @@
+﻿{
+  "totalSize": 1,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "AggregateResult"
+      },
+      "expr0": 0
+    }
+  ]
+}

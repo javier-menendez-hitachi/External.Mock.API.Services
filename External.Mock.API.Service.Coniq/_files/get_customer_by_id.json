@@ -1,0 +1,17 @@
+﻿{
+  "id": 45559174,
+  "first_name": "Jim",
+  "last_name": "Smith",
+  "email": "jim.smith@coniq.com",
+  "phone": {
+    "country_code": "44",
+    "number": "987654321"
+  },
+  "allow_email": false,
+  "allow_phone": false,
+  "allow_push_notification": false,
+  "allow_post": false,
+  "created_datetime_utc": "2018-06-25T10:32:23",
+  "preferred_location_group": {},
+  "preferred_language": "EN"
+}

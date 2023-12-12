@@ -1,0 +1,53 @@
+﻿{
+  "campaigns": [
+    {
+      "id": 10016762,
+      "name": "test-mms",
+      "folderName": "examples",
+      "type": "MmsCampaign",
+      "campaignStatus": "ACTIVE",
+      "purpose": "PROMOTIONAL",
+      "textMessagePath": "/messagelibrary/mms/10016762/Message.txt",
+      "enableLinkTracking": false,
+      "attachmentPaths": [
+        null
+      ],
+      "enableExternalTracking": false,
+      "useUTF8": false,
+      "trackHTMLOpens": false,
+      "trackConversions": false,
+      "sendTextIfHTMLUnknown": false,
+      "autoCloseOption": "None"
+    },
+    ".",
+    ".",
+    ".",
+    {
+      "id": 11081025,
+      "name": "AG_AudienceTest_MMS",
+      "folderName": "AG-Test",
+      "type": "MmsCampaign",
+      "campaignStatus": "ACTIVE",
+      "purpose": "PROMOTIONAL",
+      "listName": "2018 list",
+      "textMessagePath": "/messagelibrary/mms/11081025/Message.txt",
+      "enableLinkTracking": false,
+      "attachmentPaths": [
+        "/contentlibrary/2018_content^sale70.jpg"
+      ],
+      "enableExternalTracking": false,
+      "useUTF8": false,
+      "trackHTMLOpens": false,
+      "trackConversions": false,
+      "sendTextIfHTMLUnknown": false,
+      "autoCloseOption": "None"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "/rest/api/v1.3/campaigns?type=mms",
+      "method": "GET"
+    }
+  ]
+}

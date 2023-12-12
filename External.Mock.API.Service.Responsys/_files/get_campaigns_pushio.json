@@ -1,0 +1,32 @@
+﻿{
+  "campaigns": [
+    {
+      "id": 11896453,
+      "name": "jmp-test-mc-021419",
+      "folderName": "jmp-test",
+      "type": "PushIOCampaign",
+      "campaignStatus": "DRAFT",
+      "purpose": "PROMOTIONAL",
+      "marketingStrategy": "Other",
+      "marketingProgram": "Other",
+      "listName": "mmlist",
+      "channelList": "mm_APP",
+      "appName": "JMP Training App",
+      "destinationMessageCenter": "Primary",
+      "textMessagePath": "/messagelibrary/push/11896453/Message.txt",
+      "enableLinkTracking": false,
+      "enableExternalTracking": false,
+      "useUTF8": false,
+      "trackHTMLOpens": false,
+      "trackConversions": false,
+      "sendTextIfHTMLUnknown": false
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "/rest/api/v1.3/campaigns?type=pushiocampaign",
+      "method": "GET"
+    }
+  ]
+}

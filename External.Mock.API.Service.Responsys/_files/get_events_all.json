@@ -1,0 +1,392 @@
+﻿[
+  {
+    "eventName": "Password_Reset",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Email_Old_Address",
+    "description": "Triggers password old email programme",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Email_New_Address",
+    "description": "Triggers password new email programme",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Password_Reset_Confirmation",
+    "description": "Triggers password reset programme [Password Conf]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Welcome_Programme",
+    "description": "Trigger welcome programmme new customer [Opt In]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Welcome_Programme_Invite",
+    "description": "Triggers welcome programme new customer [Invite]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Re_permission",
+    "description": "Triggers Re Permission [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Welcome_Programme_FAB",
+    "description": "Triggers welcome proramme new customer [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Reset_Password",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Email_New_Address",
+    "description": "Development change email new email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Welcome_Programme_Invite",
+    "description": "Triggers welcome programme new customer [Invite]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Welcome_Programme_FAB",
+    "description": "Triggers welcome programme new customer [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Password_Reset_Confirmation",
+    "description": "Triggers password reset programme [Password Conf]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Password_Reset",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Email_Old_Address",
+    "description": "Development change email old email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "MGM_Opt_In_Program",
+    "description": "Trigger MGM opt in program",
+    "eventType": "1"
+  },
+  {
+    "eventName": "POC_Welcome_Programme_FAB",
+    "description": "Trigger welcome program new customer [FAB] POC",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_CLICKED_RECONSENT",
+    "description": "Re-consent customer that has clicked on reconsent",
+    "eventType": "1"
+  },
+  {
+    "eventName": "LV_Daily_2018_Fall_PS_Invitation",
+    "description": "Trigger LV 2018 PS invitation to new registrations",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Membership_Spend_16",
+    "description": "Membership_Spend_16",
+    "eventType": "3"
+  },
+  {
+    "eventName": "PROD_Welcome_Programme_Opt_In",
+    "description": "Triggers welcome programme new customer[Opt In]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "PROD_Repermission",
+    "description": "Triggers Repermission Email",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Repermission",
+    "description": "Triggers Repermission email",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Repermission",
+    "description": "Triggers Repermission email",
+    "eventType": "1"
+  },
+  {
+    "eventName": "LeadsAndContacts_CLICKED_RECONSENT",
+    "description": "Trigger Tourism Re-consent Process",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Trigger_Test",
+    "description": "Test to trigger program",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_1",
+    "description": "Triggers Membership Spend 1 treat",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Birthday",
+    "description": "Triggers Birthday Program",
+    "eventType": "3"
+  },
+  {
+    "eventName": "DEV_Welcome_Programme_Invite",
+    "description": "Triggers welcome programme new customer [Invite]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Welcome_Programme_FAB",
+    "description": "Triggers welcome proramme new customer [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Welcome_Programme_Opt_In",
+    "description": "Trigger welcome programmme new customer [Opt In]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Password_Reset_Confirmation",
+    "description": "Triggers password reset programme [Password Conf]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Password_Reset",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Email_Old_Address",
+    "description": "Development change email old email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "DEV_Email_New_Address",
+    "description": "Development change email new email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Welcome_Programme_FAB",
+    "description": "Triggers welcome proramme new customer [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Password_Reset_Confirmation",
+    "description": "Triggers password reset programme [Password Conf]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Password_Reset",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Email_Old_Address",
+    "description": "Development change email old email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Email_New_Address",
+    "description": "Development change email new email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Welcome_Programme_Opt_In",
+    "description": "Trigger welcome programme new customer [Opt In]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Welcome_Programme_Invite",
+    "description": "Triggers welcome programme new customer [Invite]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Welcome_Programme_FAB",
+    "description": "Triggers welcome proramme new customer [FAB]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Password_Reset_Confirmation",
+    "description": "Triggers password reset programme [Password Conf]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Password_Reset",
+    "description": "Triggers password reset programme [Password Rest]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Email_Old_Address",
+    "description": "Development change email old email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Email_New_Address",
+    "description": "Development change email new email address",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Welcome_Programme_Opt_In",
+    "description": "Trigger welcome programmme new customer [Opt In]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "SIT_Welcome_Programme_Invite",
+    "description": "Triggers welcome programme new customer [Invite]",
+    "eventType": "1"
+  },
+  {
+    "eventName": "POC_Welcome_Programme_Opt_In",
+    "description": "Trigger welcome program new customer [Opt In] POC",
+    "eventType": "1"
+  },
+  {
+    "eventName": "MGM_Referrer_Incentive",
+    "description": "Trigger member get member referrer incentive",
+    "eventType": "1"
+  },
+  {
+    "eventName": "UAT_Welcome_Profile_Entry",
+    "description": "Trigger UAT Profile Program with entry SQL",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Membership_Scan_7",
+    "description": "Membership_Scan_7",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Scan_6",
+    "description": "Membership_Scan_6",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Scan_5",
+    "description": "Membership_Scan_5",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Scan_4",
+    "description": "Membership_Scan_4",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Scan_3",
+    "description": "Membership_Scan_3",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Scan_2",
+    "description": "Membership_Scan_3",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_5",
+    "description": "Membership_Spend_5",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_4",
+    "description": "Membership_Spend_4",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_3",
+    "description": "Membership_Spend_3",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_2",
+    "description": "Membership_Spend_2",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_15",
+    "description": "Membership_Spend_15",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_14",
+    "description": "Membership_Spend_14",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_13",
+    "description": "Membership_Spend_13",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_12",
+    "description": "Membership_Spend_12",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_11",
+    "description": "Membership_Spend_11",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_10",
+    "description": "Membership_Spend_10",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_9",
+    "description": "Membership_Spend_9",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_8",
+    "description": "Membership_Spend_8",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_7",
+    "description": "Membership_Spend_7",
+    "eventType": "3"
+  },
+  {
+    "eventName": "Membership_Spend_6",
+    "description": "Membership_Spend_6",
+    "eventType": "3"
+  },
+  {
+    "eventName": "SIT_Repermission",
+    "description": "Triggers Repermission email",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Thank_You_PROD",
+    "description": "Triggers PROD Thank You",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Thank_You_UAT",
+    "description": "Triggers UAT Thank You",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Thank_You_SIT",
+    "description": "Triggers SIT Thank You",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Thank_You_DEV",
+    "description": "Triggers DEV Thank You",
+    "eventType": "1"
+  },
+  {
+    "eventName": "Membership_Scan_1",
+    "description": "Triggers scan 1",
+    "eventType": "3"
+  }
+]

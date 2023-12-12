@@ -1,0 +1,82 @@
+﻿{
+  "limit": 100,
+  "count": 4,
+  "next_page": "/customers?changed_from=2018-01-01T00%3A00%3A00%2B00%3A00&changed_to=2018-06-25T11%3A00%3A00%2B00%3A00",
+  "previous_page": "/customers?changed_from=2018-01-01T00%3A00%3A00%2B00%3A00&changed_to=2018-06-25T11%3A00%3A00%2B00%3A00",
+  "customers": [
+    {
+      "id": 45559170,
+      "first_name": "fname3",
+      "last_name": "lname3",
+      "email": "fl3@coniq.com",
+      "allow_email": true,
+      "allow_phone": true,
+      "allow_push_notification": true,
+      "allow_post": true,
+      "created_datetime_utc": "2018-06-18T11:24:12",
+      "modified_datetime_utc": "2018-06-18T11:24:12",
+      "preferred_location_group": {}
+    },
+    {
+      "id": 45559172,
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "john.smith@coniq.com",
+      "phone": {
+        "country_code": "44",
+        "number": "987654321"
+      },
+      "allow_email": false,
+      "allow_phone": false,
+      "allow_push_notification": false,
+      "allow_post": false,
+      "created_datetime_utc": "2018-06-25T09:42:52",
+      "preferred_location_group": {},
+      "preferred_language": "EN"
+    },
+    {
+      "id": 45559173,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@coniq.com",
+      "phone": {
+        "country_code": "44",
+        "number": "12345678912"
+      },
+      "address1": "8912Smiths Residence",
+      "address2": "Burj Khalifa",
+      "city": "Dubai",
+      "county": "Dubai",
+      "postcode": "123",
+      "company": "Allwyn_Coniq",
+      "country": "UAE",
+      "date_of_birth": "2018-06-14",
+      "gender": "F",
+      "external_id": "ExtId-123",
+      "allow_email": true,
+      "allow_phone": true,
+      "allow_push_notification": true,
+      "allow_post": true,
+      "created_datetime_utc": "2018-06-25T10:16:54",
+      "preferred_location_group": {},
+      "preferred_language": "EN"
+    },
+    {
+      "id": 45559174,
+      "first_name": "Jim",
+      "last_name": "Smith",
+      "email": "jim.smith@coniq.com",
+      "phone": {
+        "country_code": "44",
+        "number": "987654321"
+      },
+      "allow_email": false,
+      "allow_phone": false,
+      "allow_push_notification": false,
+      "allow_post": false,
+      "created_datetime_utc": "2018-06-25T10:32:23",
+      "preferred_location_group": {},
+      "preferred_language": "EN"
+    }
+  ]
+}

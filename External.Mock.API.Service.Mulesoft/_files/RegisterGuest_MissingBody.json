@@ -1,0 +1,9 @@
+﻿{
+  "isSuccess": false,
+  "errorCode": "1",
+  "errorMessage": "Missing Body",
+  "message": "",
+  "statusCode": 400,
+  "loggingCategory": "MulesoftApiMock",
+  "messages": []
+}

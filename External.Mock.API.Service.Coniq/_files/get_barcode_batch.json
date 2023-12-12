@@ -1,0 +1,18 @@
+﻿{
+  "offer_id": 17453,
+  "channel": "PAPER",
+  "customers": [
+    {
+      "customer_id": 48531812,
+      "barcode_number": "76927080856122"
+    },
+    {
+      "customer_id": 48531813,
+      "barcode_number": "11465296719123"
+    },
+    {
+      "customer_id": 48531816,
+      "barcode_number": "47987929004124"
+    }
+  ]
+}

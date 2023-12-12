@@ -1,0 +1,14 @@
+﻿{
+  "totalSize": 1,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v52.0/sobjects/Account/0015E000022wPeXQAU"
+      },
+      "Id": "0015E000022wPeXQAU",
+      "Customer_GUID__c": "d2a96dab-46d7-4f54-b686-4bcce02eb448"
+    }
+  ]
+}

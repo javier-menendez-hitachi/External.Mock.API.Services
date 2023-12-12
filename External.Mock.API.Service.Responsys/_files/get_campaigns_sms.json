@@ -1,0 +1,69 @@
+﻿{
+  "campaigns": [
+    {
+      "id": 1234,
+      "name": "SMS_CAMP1",
+      "folderName": "Folder1",
+      "type": "SMS",
+      "campaignStatus": "DRAFT",
+      "purpose": "PROMOTIONAL",
+      "listName": "R_SMS_LIST1",
+      "textMessagePath": "/messagelibrary/sms/13187/Message.txt",
+      "enableLinkTracking": false,
+      "enableExternalTracking": false,
+      "useUTF8": false,
+      "trackHTMLOpens": false,
+      "trackConversions": false,
+      "sendTextIfHTMLUnknown": false,
+      "unsubscribeOption": "OPTOUT_SINGLE_CLICK",
+      "autoCloseOption": "AUTO_CLOSE_X_DAYS_AFTER_LAST_RESPONSE",
+      "autoCloseValue": "90"
+    },
+    {
+      "id": 12345,
+      "name": "SMS_CAMP2",
+      "folderName": "Folder2",
+      "type": "SMS",
+      "campaignStatus": "ACTIVE",
+      "purpose": "PROMOTIONAL",
+      "listName": "R_SMS_LIST2",
+      "textMessagePath": "/messagelibrary/sms/13687/Message.txt",
+      "enableLinkTracking": false,
+      "enableExternalTracking": false,
+      "campaignVariables": {
+        "SMS_CARRIER": null,
+        "SMS_USER_INPUT1": null,
+        "SMS_USER_INPUT2": null,
+        "SMS_USER_INPUT3": null,
+        "SMS_USER_INPUT4": null,
+        "SMS_USER_INPUT5": null,
+        "SMS_CODE": null,
+        "SMS_KEYWORD": " Default"
+      },
+      "useUTF8": false,
+      "trackHTMLOpens": false,
+      "trackConversions": false,
+      "sendTextIfHTMLUnknown": false,
+      "unsubscribeOption": "OPTOUT_SINGLE_CLICK",
+      "autoCloseOption": "AUTO_CLOSE_X_DAYS_AFTER_LAST_RESPONSE",
+      "autoCloseValue": "90"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "/rest/api/v1.3/campaigns?type=sms",
+      "method": "GET"
+    },
+    {
+      "rel": "prev",
+      "href": "/rest/api/v1.3/campaigns?limit=5&amp;offset=0&amp;type=sms",
+      "method": "GET"
+    },
+    {
+      "rel": "next",
+      "href": "rest/api/v1.3/campaigns?limit=5&amp;offset=200&amp;type=sms",
+      "method": "GET"
+    }
+  ]
+}

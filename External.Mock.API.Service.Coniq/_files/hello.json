@@ -1,0 +1,10 @@
+﻿{
+  "isSuccess": true,
+  "errorCode": "0",
+  "errorMessage": "",
+  "message": "Welcome to Coniq API Mock",
+  "statusCode": 200,
+  "loggingCategory": "ConiqMock",
+  "messages": [],
+  "ver": "20230130_1233"
+}

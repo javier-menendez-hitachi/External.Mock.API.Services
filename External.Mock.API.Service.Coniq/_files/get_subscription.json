@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": 54838109,
+    "offer_id": 17453,
+    "customer_id": 45559170,
+    "created_datetime_utc": "2018-06-25T12:12:09",
+    "current_balance": 1500,
+    "lifetime_balance": 2500,
+    "tier": {
+      "id": 1234,
+      "label": "Gold"
+    }
+  }
+]

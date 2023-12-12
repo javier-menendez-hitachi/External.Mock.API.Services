@@ -1,0 +1,72 @@
+﻿[
+  {
+    "Id": "a7W7Z0000009ecdUAA",
+    "Name": "My Rewards",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009ehOUAQ",
+    "Name": "TEST for German",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009ecEUAQ",
+    "Name": "ok",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": true
+  },
+  {
+    "Id": "a7W7Z0000009ebfUAA",
+    "Name": "This is testing",
+    "Description": "",
+    "Order": "2.0",
+    "IsToHide": true
+  },
+  {
+    "Id": "a7W7Z0000009edbUAA",
+    "Name": "My Rewards",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009edgUAA",
+    "Name": "From our Partners",
+    "Description": "",
+    "Order": "2.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009eeKUAQ",
+    "Name": "test reward",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009eePUAQ",
+    "Name": "Minium",
+    "Description": "",
+    "Order": "1000.0",
+    "IsToHide": true
+  },
+  {
+    "Id": "a7W7Z0000009ehJUAQ",
+    "Name": "Welcome",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": false
+  },
+  {
+    "Id": "a7W7Z0000009ebpUAA",
+    "Name": "ok",
+    "Description": "",
+    "Order": "1.0",
+    "IsToHide": true
+  }
+]
