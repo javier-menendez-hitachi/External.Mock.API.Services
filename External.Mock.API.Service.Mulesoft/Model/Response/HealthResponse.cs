@@ -1,9 +1,9 @@
-﻿namespace External.Mock.API.Service.Mulesoft.Model.Wape
+﻿namespace External.Mock.API.Service.Mulesoft.Model.Response
 {
     using System;
     using System.Text.Json.Serialization;
 
-    public class Health
+    public class HealthResponse
     {
         [JsonPropertyName("status")]
         public string Status { get; set; } = "Success";

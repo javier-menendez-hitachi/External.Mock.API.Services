@@ -1,9 +1,0 @@
-﻿{
-  "isSuccess": false,
-  "errorCode": "3",
-  "errorMessage": "Missing Update Barcode callback settings",
-  "message": "No update barcode callback url and key found for provided environment",
-  "statusCode": 424,
-  "loggingCategory": "MulesoftApiMock",
-  "messages": []
-}

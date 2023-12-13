@@ -1,18 +1,17 @@
-﻿using System.Net;
-using Microsoft.Extensions.Options;
-using Mock.API.Services.Common.Chaos;
-using Polly;
-using Polly.Registry;
-using Polly.Wrap;
-using Mock.API.Services.Common.AspNetCoreHelpers;
-using System.Dynamic;
-using External.Mock.API.Service.Mulesoft.Callback;
-using External.Mock.API.Service.Mulesoft.Model.Wape;
-using External.Mock.API.Service.Mulesoft.Faker;
-using System;
-
-namespace External.Mock.API.Service.Mulesoft
+﻿namespace External.Mock.API.Service.Mulesoft
 {
+    using Microsoft.Extensions.Options;
+    using System.Net;
+    using Polly.Registry;
+    using External.Mock.API.Service.Mulesoft.Faker;
+    using External.Mock.API.Service.Mulesoft.Callback;
+    using External.Mock.API.Service.Mulesoft.Model.Wape;
+    using Polly;
+    using Polly.Wrap;
+    using External.Mock.API.Service.Mulesoft.Model.Response;
+    using global::Mock.API.Services.Common.Chaos;
+    using global::Mock.API.Services.Common.AspNetCoreHelpers;
+
     public static partial class MulesoftApiGroups
     {
         public static RouteGroupBuilder Root(this RouteGroupBuilder group)
@@ -21,8 +20,9 @@ namespace External.Mock.API.Service.Mulesoft
             group.MapGet("", async (HttpContext httpContext, LinkGenerator links,
                 IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry) =>
             {
-                return await ChaosHandler("Hello", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK,
-                    body: null!, responseFromFile: true);
+                var response = new MockResponse();
+
+                return await ChaosHandler("Hello", "CircuitBreakerPolicy",httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
 
             }).WithName("Hello");
 
@@ -31,8 +31,9 @@ namespace External.Mock.API.Service.Mulesoft
                 IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry,
                 string id) =>
             {
-                return await ChaosHandler("OAuth", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK,
-                    body: null!, responseFromFile: true);
+                var response = new OAuthResponse();
+
+                return await ChaosHandler("Hello", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
 
             }).WithName("OAuth");
 
@@ -45,7 +46,7 @@ namespace External.Mock.API.Service.Mulesoft
             group.MapGet("/health-check", async (HttpContext httpContext, LinkGenerator links,
                 IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry) =>
             {
-                var response = new Health();
+                var response = new HealthResponse();
 
                 return await ChaosHandler("WapeHealthCheck", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
 
@@ -57,17 +58,43 @@ namespace External.Mock.API.Service.Mulesoft
                     IOptionsSnapshot<WapeCallbackSettings> wapeCallbackOptionsSnapshot,
                     IPolicyRegistry<string> registry, Guest? body) =>
             {
+                var errResponse = new MockResponse
+                {
+                    IsSuccess = false
+                };
+
                 // Check Request
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "RegisterGuest_MissingBody", HttpStatusCode.BadRequest, null!);  
-                // Retrive header with environment name
+                {
+                    errResponse.ErrorCode = "1";
+                    errResponse.ErrorMessage = "Missing Body";
+                    errResponse.StatusCode = 400;
+
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "RegisterGuest_MissingBody", HttpStatusCode.BadRequest, errResponse);
+                }
+                    
+                // Retrieve header with environment name
                 var environment = httpContext.Request.Headers["environment"].ToString();
                 if (string.IsNullOrEmpty(environment))
-                    return await JsonResponseHelper.GetJsonResponseFromFile(httpContext, links, "RegisterGuest_MissingEnvironment", HttpStatusCode.BadRequest);  
-                // Retrive callback url and key
+                {
+                    errResponse.ErrorCode = "2";
+                    errResponse.ErrorMessage = "Missing Environment header";
+                    errResponse.StatusCode = 400;
+
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "RegisterGuest_MissingEnvironment", HttpStatusCode.BadRequest, errResponse);
+                }
+                    
+                // Retrieve callback url and key
                 var callback = wapeCallbackOptionsSnapshot.Value.WapeCallbacks?.Find(x => x.Environment!.Equals(environment, StringComparison.OrdinalIgnoreCase));
-                if (callback == null)
-                    return await JsonResponseHelper.GetJsonResponseFromFile(httpContext, links, "RegisterGuest_MissingCallback", HttpStatusCode.FailedDependency);  
+                if (callback == null) 
+                {
+                    errResponse.ErrorCode = "3";
+                    errResponse.ErrorMessage = "Missing Update Barcode callback settings";
+                    errResponse.Message = "No update barcode callback url and key found for provided environment";
+                    errResponse.StatusCode = 424;
+
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "RegisterGuest_MissingCallback", HttpStatusCode.FailedDependency, errResponse);
+                }
 
                 // Update Response
                 var response = FakeHelper.GenFakeGuest(Guid.NewGuid(), body.Email);
@@ -96,7 +123,7 @@ namespace External.Mock.API.Service.Mulesoft
             {
                 // Check Request
                 if (!Guid.TryParse(customerId, out Guid guid))
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GetGuest", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GetGuest", HttpStatusCode.BadRequest, null!);
 
                 var response = FakeHelper.GenFakeGuest(guid);
 
@@ -110,13 +137,9 @@ namespace External.Mock.API.Service.Mulesoft
             {
                 // Check Request
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuest", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuest", HttpStatusCode.BadRequest, null!);
 
-                dynamic response = new ExpandoObject();
-                response.recordId = Guid.NewGuid();
-                response.transactionId = Guid.NewGuid();
-                response.status = "Success";
-                response.message = "This is a Mock";
+                var response = new MuleResponseTrans();
 
                 return await ChaosHandler("UpdateGuest", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
 
@@ -129,10 +152,10 @@ namespace External.Mock.API.Service.Mulesoft
 
                 // Check Request
                 if (!Guid.TryParse(customerId, out Guid guid))
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuestLastLoginDate", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuestLastLoginDate", HttpStatusCode.BadRequest, null!);
 
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuestLastLoginDate", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "UpdateGuestLastLoginDate", HttpStatusCode.BadRequest, null!);
 
                 var response = FakeHelper.GenFakeGuest(guid);
 
@@ -141,20 +164,16 @@ namespace External.Mock.API.Service.Mulesoft
             }).WithName("UpdateGuestLastLoginDate");
 
             // Send Email V2
-            group.MapPost("/guests/{customerId}/emails/{templateid}", async (HttpContext httpContext, LinkGenerator links,
+            group.MapPost("/guests/{customerId}/emails/{templateId}", async (HttpContext httpContext, LinkGenerator links,
                         IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry,
-                        string customerId, string templateid, object? body) =>
+                        string customerId, string templateId, SendEmail? body) =>
             {
                 // Check Request
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "SendEmail", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "SendEmail", HttpStatusCode.BadRequest, null!);
 
                 // Update Response
-                dynamic response = new ExpandoObject();
-                response.recordId = Guid.NewGuid();
-                response.correlationId = Guid.NewGuid();
-                response.status = "Success";
-                response.message = "This is a Mock";
+                var response = new MuleResponseCorrelation();
 
                 return await ChaosHandler("SendEmail", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
 
@@ -165,13 +184,9 @@ namespace External.Mock.API.Service.Mulesoft
             {
                 // Check Request
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GuestRewards", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GuestRewards", HttpStatusCode.BadRequest, null!);
 
-                dynamic response = new ExpandoObject();
-                response.recordId = Guid.NewGuid();
-                response.correlationId = Guid.NewGuid();
-                response.status = "Success";
-                response.message = "This is a Mock";
+                var response = new MuleResponseCorrelation();
 
                 return await ChaosHandler("GuestRewards", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.Accepted, response);
 
@@ -182,13 +197,9 @@ namespace External.Mock.API.Service.Mulesoft
             {
                 // Check Request
                 if (body == null)
-                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GuestSegments", HttpStatusCode.BadRequest, null!);  
+                    return await JsonResponseHelper.GetJsonResponse(httpContext, links, "GuestSegments", HttpStatusCode.BadRequest, null!);
 
-                dynamic response = new ExpandoObject();
-                response.recordId = Guid.NewGuid();
-                response.correlationId = Guid.NewGuid();
-                response.status = "Success";
-                response.message = "This is a Mock";
+                var response = new MuleResponseCorrelation();
 
                 return await ChaosHandler("GuestSegments", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.Accepted, response);
 
@@ -203,7 +214,7 @@ namespace External.Mock.API.Service.Mulesoft
             group.MapGet("/health-check", async (HttpContext httpContext, LinkGenerator links,
                 IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry) =>
             {
-                var response = new Health
+                var response = new HealthResponse
                 {
                     ApiName = "vr-exp-website-members-loyalty-v1-mock",
                     ApiVersion = "1.0.0",
@@ -255,7 +266,7 @@ namespace External.Mock.API.Service.Mulesoft
             group.MapGet("/health-check", async (HttpContext httpContext, LinkGenerator links,
                 IOptionsSnapshot<AppChaosSettings> chaosOptionsSnapshot, IPolicyRegistry<string> registry) =>
             {
-                var response = new Health
+                var response = new HealthResponse
                 {
                     ApiName = "vr-exp-website-loyalty-v1-mock",
                     ApiVersion = "1.0.0",
@@ -273,9 +284,7 @@ namespace External.Mock.API.Service.Mulesoft
                 var response = FakeHelper.GenFakeSegmentInfo();
 
                 return await ChaosHandler("GetSegmentInfo", "CircuitBreakerPolicy", httpContext, links, chaosOptionsSnapshot, registry, HttpStatusCode.OK, response);
-
             }).WithName("GetSegmentInfo");
-
             return group;
         }
 
