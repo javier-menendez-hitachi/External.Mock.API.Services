@@ -397,7 +397,36 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">&#xd;
+                <stringProp name="Argument.value">{&#xd;
+  &quot;Customer&quot;: {&#xd;
+    &quot;NameGiven&quot; : &quot;testing8756&quot;,&#xd;
+    &quot;NameFamily&quot; : &quot;testing8756s&quot;,&#xd;
+    &quot;Gender&quot; : &quot;1&quot;,&#xd;
+    &quot;Email&quot;: &quot;fvi+2022028756@gmail.com&quot;,&#xd;
+    &quot;VillagePrimary&quot;: &quot;BV&quot;,&#xd;
+    &quot;Language&quot; : &quot;en-gb&quot;,&#xd;
+    &quot;LastUpdateSource&quot;: &quot;WIFI&quot;,&#xd;
+    &quot;SourceSystem&quot; : &quot;WIFI&quot;,&#xd;
+    &quot;IsNativeRegistration&quot; : &quot;1&quot;&#xd;
+  },&#xd;
+  &quot;CustomerStatus&quot;: {&#xd;
+	  &quot;CustomerId&quot;: &quot;bc6186dd-bc7f-4691-8701-2f37191853dc&quot;,&#xd;
+	  &quot;IsActive&quot;: false,    &#xd;
+	  &quot;IsRepermission&quot;: true,&#xd;
+	  &quot;DateMembership&quot;: &quot;2022-02-15T11:40:43.047Z&quot;,&#xd;
+	  &quot;IsDeleted&quot;: false,&#xd;
+	  &quot;IsClearedDelete&quot;: true,&#xd;
+	  &quot;IsLockedOut&quot;: true,&#xd;
+	  &quot;OptInStatus&quot;: 0,&#xd;
+	  &quot;DateLastLogin&quot;: &quot;2022-02-15T11:40:43.047Z&quot;,&#xd;
+	  &quot;IsPrivilege&quot;: true,&#xd;
+	  &quot;DatePrivilege&quot;: &quot;2022-02-15T11:40:43.047Z&quot;,&#xd;
+	  &quot;DateTimePrivilege&quot;: &quot;2022-02-15T11:40:43.047Z&quot;,&#xd;
+	  &quot;LastUpdateSource&quot;: &quot;string&quot;,&#xd;
+	  &quot;mCollections&quot;: {},&#xd;
+	  &quot;Active&quot;: true&#xd;
+	}&#xd;
+}&#xd;
 </stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
