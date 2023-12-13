@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Customer Registration Single Opt-In" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Customer Registration Mock " enabled="true">
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -30,19 +30,39 @@
               <stringProp name="Argument.metadata">=</stringProp>
               <stringProp name="Argument.value">weu-apim-jmen.azure-api.net</stringProp>
             </elementProp>
+            <elementProp name="zbPath" elementType="Argument">
+              <stringProp name="Argument.value">mock-zerobounce/validate</stringProp>
+              <stringProp name="Argument.name">zbPath</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="wapePath" elementType="Argument">
+              <stringProp name="Argument.name">wapePath</stringProp>
+              <stringProp name="Argument.value">mock-wape/api/v3/customer</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="mulePath" elementType="Argument">
+              <stringProp name="Argument.name">mulePath</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.value">mock-mulesoft/wape/v2/guests</stringProp>
+            </elementProp>
+            <elementProp name="coniqPath" elementType="Argument">
+              <stringProp name="Argument.name">coniqPath</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.value">mock-coniq/barcode</stringProp>
+            </elementProp>
+            <elementProp name="sfPath" elementType="Argument">
+              <stringProp name="Argument.name">sfPath</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+              <stringProp name="Argument.value">mock-salesforce/data/v54.0/sobjects/Account</stringProp>
+            </elementProp>
+            <elementProp name="rsysPath" elementType="Argument">
+              <stringProp name="Argument.name">rsysPath</stringProp>
+              <stringProp name="Argument.value">mock-responsys/rest/api/v1/lists/LIST_NAME</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
             <elementProp name="nameFamily" elementType="Argument">
               <stringProp name="Argument.name">nameFamily</stringProp>
               <stringProp name="Argument.value">WAPE_MOCK</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="throughputPeriod" elementType="Argument">
-              <stringProp name="Argument.name">throughputPeriod</stringProp>
-              <stringProp name="Argument.value">${__BeanShell( System.getenv(&quot;throughputPeriod&quot;))}</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="targetThroughput" elementType="Argument">
-              <stringProp name="Argument.name">targetThroughput</stringProp>
-              <stringProp name="Argument.value">${__BeanShell( System.getenv(&quot;targetThroughput&quot;))}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="emailUserName" elementType="Argument">
@@ -53,11 +73,6 @@
             <elementProp name="emailDomainName" elementType="Argument">
               <stringProp name="Argument.name">emailDomainName</stringProp>
               <stringProp name="Argument.value">gmail.com</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="batchedThreads" elementType="Argument">
-              <stringProp name="Argument.name">batchedThreads</stringProp>
-              <stringProp name="Argument.value">${__BeanShell( System.getenv(&quot;batchedThreads&quot;))}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="arrivalsTargetRate" elementType="Argument">
@@ -80,19 +95,9 @@
               <stringProp name="Argument.value">5</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="arrivalsThreadIterationsLimit" elementType="Argument">
-              <stringProp name="Argument.name">arrivalsThreadIterationsLimit</stringProp>
-              <stringProp name="Argument.value">${__BeanShell( System.getenv(&quot;arrivalsThreadIterationsLimit&quot;))}</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
             <elementProp name="arrivalsConcurrencyLimit" elementType="Argument">
               <stringProp name="Argument.name">arrivalsConcurrencyLimit</stringProp>
               <stringProp name="Argument.value">1000</stringProp>
-              <stringProp name="Argument.metadata">=</stringProp>
-            </elementProp>
-            <elementProp name="path" elementType="Argument">
-              <stringProp name="Argument.name">path</stringProp>
-              <stringProp name="Argument.value">mock-wape/api/v3/customer</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="wapeServiceAuthenticationKey" elementType="Argument">
@@ -117,7 +122,123 @@
           <boolProp name="CounterConfig.per_user">false</boolProp>
         </CounterConfig>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Customer Upsert" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Validate Email (Zerobounce)" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">Https</stringProp>
+          <stringProp name="HTTPSampler.path">${zbPath}?email=${emailUserName}+${emailCount}@${emailDomainName}</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers for api" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">${wapeServiceAuthenticationKey}</stringProp>
+                <stringProp name="Header.value">${wapeServiceAuthenticationValue}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Customer Mulesoft" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;guid&quot;: &quot;3fa85f64-5717-4562-b3fc-2c963f66afa6&quot;,&#xd;
+  &quot;contactId&quot;: &quot;string&quot;,&#xd;
+  &quot;guestId&quot;: &quot;string&quot;,&#xd;
+  &quot;firstName&quot;: &quot;string&quot;,&#xd;
+  &quot;lastName&quot;: &quot;string&quot;,&#xd;
+  &quot;email&quot;: &quot;string&quot;,&#xd;
+  &quot;postcode&quot;: &quot;string&quot;,&#xd;
+  &quot;county&quot;: &quot;string&quot;,&#xd;
+  &quot;country&quot;: &quot;string&quot;,&#xd;
+  &quot;dateOfBirth&quot;: &quot;2023-12-12T19:11:48.427Z&quot;,&#xd;
+  &quot;gender&quot;: &quot;string&quot;,&#xd;
+  &quot;preferredLanguage&quot;: &quot;string&quot;,&#xd;
+  &quot;originalVillage&quot;: &quot;string&quot;,&#xd;
+  &quot;primaryVillage&quot;: &quot;string&quot;,&#xd;
+  &quot;leadSource&quot;: &quot;string&quot;,&#xd;
+  &quot;leadSourceText&quot;: &quot;string&quot;,&#xd;
+  &quot;emailOptOut&quot;: true,&#xd;
+  &quot;emailConsentDate&quot;: &quot;2023-12-12T19:11:48.428Z&quot;,&#xd;
+  &quot;singleOptIn&quot;: true,&#xd;
+  &quot;isNative&quot;: true,&#xd;
+  &quot;barcodeNumber&quot;: &quot;string&quot;,&#xd;
+  &quot;barcodeOfferId&quot;: &quot;string&quot;,&#xd;
+  &quot;barcodeUrl&quot;: &quot;string&quot;,&#xd;
+  &quot;isProfessionalBuyer&quot;: true,&#xd;
+  &quot;isAnonymised&quot;: true,&#xd;
+  &quot;city&quot;: &quot;string&quot;,&#xd;
+  &quot;street&quot;: &quot;string&quot;,&#xd;
+  &quot;mobilePhone&quot;: &quot;string&quot;,&#xd;
+  &quot;otherVillagesOfInterest&quot;: [&#xd;
+    &quot;string&quot;&#xd;
+  ],&#xd;
+  &quot;mobileOptOut&quot;: true,&#xd;
+  &quot;postOptOut&quot;: true,&#xd;
+  &quot;mobileConsentDate&quot;: &quot;2023-12-12T19:11:48.428Z&quot;,&#xd;
+  &quot;postConsentDate&quot;: &quot;2023-12-12T19:11:48.428Z&quot;,&#xd;
+  &quot;annualPlannedVisits&quot;: &quot;string&quot;,&#xd;
+  &quot;isPrivateClient&quot;: true,&#xd;
+  &quot;membershipActivationStatus&quot;: &quot;string&quot;,&#xd;
+  &quot;guestType&quot;: &quot;string&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">Https</stringProp>
+          <stringProp name="HTTPSampler.path">${mulePath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers for api" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">${wapeServiceAuthenticationKey}</stringProp>
+                <stringProp name="Header.value">${wapeServiceAuthenticationValue}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Customer WAPE" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -151,7 +272,140 @@
           </elementProp>
           <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
           <stringProp name="HTTPSampler.protocol">Https</stringProp>
-          <stringProp name="HTTPSampler.path">${path}</stringProp>
+          <stringProp name="HTTPSampler.path">${wapePath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers for api" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">${wapeServiceAuthenticationKey}</stringProp>
+                <stringProp name="Header.value">${wapeServiceAuthenticationValue}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Barcode Coniq" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;offer_id&quot;: 0,&#xd;
+  &quot;customer_id&quot;: 0,&#xd;
+  &quot;channel&quot;: &quot;string&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">Https</stringProp>
+          <stringProp name="HTTPSampler.path">${coniqPath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers for api" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">${wapeServiceAuthenticationKey}</stringProp>
+                <stringProp name="Header.value">${wapeServiceAuthenticationValue}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create SF Account" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;salesforceId&quot;: &quot;string&quot;,&#xd;
+  &quot;customer_GUID__c&quot;: &quot;string&quot;,&#xd;
+  &quot;firstName&quot;: &quot;string&quot;,&#xd;
+  &quot;lastName&quot;: &quot;string&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">Https</stringProp>
+          <stringProp name="HTTPSampler.path">${sfPath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Headers for api" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">${wapeServiceAuthenticationKey}</stringProp>
+                <stringProp name="Header.value">${wapeServiceAuthenticationValue}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Responsys Member" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">Https</stringProp>
+          <stringProp name="HTTPSampler.path">${rsysPath}</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
