@@ -11,6 +11,7 @@
 	<InvariantGlobalization>true</InvariantGlobalization>
 	<!-- 👇 Enables always publishing as AOT -->
 	<PublishAot>true</PublishAot>
+	<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>
