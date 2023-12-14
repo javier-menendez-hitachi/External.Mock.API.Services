@@ -58,6 +58,9 @@ namespace External.Mock.API.Service.Mulesoft
             builder.Services.Configure<WapeCallbackSettings>(builder.Configuration.GetSection("WapeCallbackSettings"));
 
             var app = builder.Build();
+            
+            // Enable the Developer Exception Page to get more detailed error messages
+            app.UseDeveloperExceptionPage();
 
             // Use Swagger
             app.UseSwagger();
@@ -71,8 +74,7 @@ namespace External.Mock.API.Service.Mulesoft
             app.UseHttpsRedirection();
             // Add Routing
             app.UseRouting();
-            // Enable the Developer Exception Page to get more detailed error messages
-            app.UseDeveloperExceptionPage();
+            
 
             // Use groups to define endpoints
             var root = app.MapGroup("/").Root().AddEndpointFilterFactory(RequestAuditor);
