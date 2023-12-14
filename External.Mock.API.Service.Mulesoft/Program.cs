@@ -59,9 +59,6 @@ namespace External.Mock.API.Service.Mulesoft
 
             var app = builder.Build();
             
-            // Enable the Developer Exception Page to get more detailed error messages
-            app.UseDeveloperExceptionPage();
-
             // Use Swagger
             app.UseSwagger();
             app.UseSwaggerUI();
