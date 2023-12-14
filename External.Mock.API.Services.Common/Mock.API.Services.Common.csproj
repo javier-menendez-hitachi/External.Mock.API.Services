@@ -4,6 +4,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<!-- 👇 Disables server GC to reduce memory consumption -->
+	<ServerGarbageCollection>false</ServerGarbageCollection>
+	<!-- 👇 Using invariant globalization reduces app sizes -->
+	<InvariantGlobalization>true</InvariantGlobalization>
+	<!-- 👇 Enables always publishing as AOT -->
+	<PublishAot>true</PublishAot>
+	<IsAotCompatible>true</IsAotCompatible>
+	<StripSymbols>false</StripSymbols>
+	<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>
