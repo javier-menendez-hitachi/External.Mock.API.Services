@@ -18,6 +18,8 @@ namespace External.Mock.API.Service.Mulesoft
             var builder = WebApplication.CreateSlimBuilder(args);
 
             // This is not included using CreateSlimBuilder
+            builder.WebHost.UseKestrel();
+            builder.WebHost.UseKestrelCore();
             builder.WebHost.UseKestrelHttpsConfiguration();
             builder.WebHost.UseQuic();
 
