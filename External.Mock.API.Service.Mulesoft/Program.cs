@@ -15,13 +15,7 @@ namespace External.Mock.API.Service.Mulesoft
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateSlimBuilder(args);
-
-            // This is not included using CreateSlimBuilder
-            builder.WebHost.UseKestrel();
-            builder.WebHost.UseKestrelCore();
-            builder.WebHost.UseKestrelHttpsConfiguration();
-            builder.WebHost.UseQuic();
+            var builder = WebApplication.CreateBuilder(args);
 
             // Configure the HTTP JSON serializer options to allow serialization AOT
             builder.Services.ConfigureHttpJsonOptions(options =>
@@ -65,9 +59,6 @@ namespace External.Mock.API.Service.Mulesoft
 
             var app = builder.Build();
             
-            // This is not included using CreateSlimBuilder
-            app.UseHttpsRedirection();
-
             // Use Swagger
             app.UseSwagger();
             app.UseSwaggerUI();
@@ -81,7 +72,6 @@ namespace External.Mock.API.Service.Mulesoft
             // Add Routing
             app.UseRouting();
             
-
             // Use groups to define endpoints
             var root = app.MapGroup("/").Root().AddEndpointFilterFactory(RequestAuditor);
             root.MapGroup("wape/v2").Wape();
