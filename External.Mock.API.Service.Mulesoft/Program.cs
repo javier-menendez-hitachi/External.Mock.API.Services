@@ -15,7 +15,7 @@ namespace External.Mock.API.Service.Mulesoft
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateSlimBuilder(args);
+            var builder = WebApplication.CreateBuilder(args);
 
             // Configure the HTTP JSON serializer options to allow serialization AOT
             builder.Services.ConfigureHttpJsonOptions(options =>
