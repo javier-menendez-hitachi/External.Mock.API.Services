@@ -5,14 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>0d8a2c80-7350-4f1f-b50f-ddd004e3b6a3</UserSecretsId>
-	<!-- 👇 Disables server GC to reduce memory consumption -->
-	<ServerGarbageCollection>false</ServerGarbageCollection>
-	<!-- 👇 Using invariant globalization reduces app sizes -->
-	<InvariantGlobalization>true</InvariantGlobalization>
 	<!-- 👇 Enables always publishing as AOT -->
 	<PublishAot>true</PublishAot>
-	<IsAotCompatible>true</IsAotCompatible>
-	<StripSymbols>false</StripSymbols>
 	<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
